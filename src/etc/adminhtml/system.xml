@@ -14,8 +14,7 @@
                 <field id="force_totals_full_mode" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Force Totals Full Mode</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment><![CDATA[By default, a full summary of cart totals is not shown until the shipping step has been completed.
-                                      This can result in incorrect expectations because discounts are not displayed in the first step of the checkout.]]></comment>
+                    <comment><![CDATA[By default, a full summary of cart totals is not shown until the shipping step has been completed. This can result in incorrect expectations because discounts are not displayed in the first step of the checkout.]]></comment>
                 </field>
                 <field id="default_shipping_method" translate="label" type="select" sortOrder="15" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Default Shipping Method</label>
@@ -86,8 +85,7 @@
                 <field id="disable_login_popup" translate="label" type="select" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Disable Login Popup</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment><![CDATA[Disables the login pop-up in the top-right corner of checkout.
-                                      Existing customers can still login when providing their e-mail in the checkout, regardless of this setting.]]></comment>
+                    <comment><![CDATA[Disables the login pop-up in the top-right corner of checkout. Existing customers can still login when providing their e-mail in the checkout, regardless of this setting.]]></comment>
                 </field>
             </group>
             <group id="shipping" translate="label" type="text" sortOrder="15" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -162,7 +160,7 @@
                 <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Enable Social Login</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment>Allows customers to login using their Social Media accounts from inside the checkout.</comment>
+                    <comment><![CDATA[Allows customers to login using their Social Media accounts from inside the checkout.]]></comment>
                 </field>
                 <field id="enable_twitter" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Enable Twitter</label>
